@@ -11,6 +11,30 @@
 		659E1C492B30AA3600A29617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C482B30AA3600A29617 /* ContentView.swift */; };
 		659E1C4B2B30AA3900A29617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659E1C4A2B30AA3900A29617 /* Assets.xcassets */; };
 		659E1C4E2B30AA3900A29617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659E1C4D2B30AA3900A29617 /* Preview Assets.xcassets */; };
+		659E1C582B30AB4000A29617 /* MainHotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C572B30AB4000A29617 /* MainHotelView.swift */; };
+		659E1C5B2B30AC8800A29617 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C5A2B30AC8800A29617 /* AppColors.swift */; };
+		659E1C5E2B30D4F500A29617 /* WrappingHstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C5D2B30D4F500A29617 /* WrappingHstack.swift */; };
+		659E1C602B30D52800A29617 /* SpecificRounCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C5F2B30D52800A29617 /* SpecificRounCorner.swift */; };
+		659E1C622B30D57400A29617 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C612B30D57400A29617 /* MainViewModel.swift */; };
+		659E1C652B30D5D100A29617 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 659E1C642B30D5D100A29617 /* Alamofire */; };
+		659E1C682B30D61700A29617 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 659E1C672B30D61700A29617 /* Kingfisher */; };
+		659E1C6B2B30D62A00A29617 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C6A2B30D62A00A29617 /* ApiManager.swift */; };
+		659E1C6E2B30D6A800A29617 /* FirstPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C6D2B30D6A800A29617 /* FirstPageModel.swift */; };
+		659E1C712B31353B00A29617 /* RoomsViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C702B31353B00A29617 /* RoomsViewList.swift */; };
+		659E1C732B31588F00A29617 /* RoomsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C722B31588F00A29617 /* RoomsListViewModel.swift */; };
+		659E1C752B31597200A29617 /* RoomListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C742B31597200A29617 /* RoomListModel.swift */; };
+		659E1C782B315F3400A29617 /* RoomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C772B315F3400A29617 /* RoomCard.swift */; };
+		659E1C7B2B315F5500A29617 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C7A2B315F5500A29617 /* RatingView.swift */; };
+		659E1C7D2B315F7E00A29617 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C7C2B315F7E00A29617 /* OptionView.swift */; };
+		659E1C7F2B315FB600A29617 /* DescriptionLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C7E2B315FB600A29617 /* DescriptionLine.swift */; };
+		659E1C812B315FD800A29617 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C802B315FD800A29617 /* Images.swift */; };
+		659E1C842B31618100A29617 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C832B31618100A29617 /* OrderView.swift */; };
+		659E1C872B3166A000A29617 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C862B3166A000A29617 /* CustomTextField.swift */; };
+		659E1C8A2B31701A00A29617 /* InputMask in Frameworks */ = {isa = PBXBuildFile; productRef = 659E1C892B31701A00A29617 /* InputMask */; };
+		659E1C8D2B3178EB00A29617 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 659E1C8C2B3178EB00A29617 /* iPhoneNumberField */; };
+		659E1C8F2B318E3800A29617 /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C8E2B318E3800A29617 /* OrderPage.swift */; };
+		659E1C912B318EDF00A29617 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C902B318EDF00A29617 /* OrderViewModel.swift */; };
+		659E1C942B31980700A29617 /* DoneOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659E1C932B31980700A29617 /* DoneOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +43,26 @@
 		659E1C482B30AA3600A29617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		659E1C4A2B30AA3900A29617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		659E1C4D2B30AA3900A29617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		659E1C572B30AB4000A29617 /* MainHotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHotelView.swift; sourceTree = "<group>"; };
+		659E1C5A2B30AC8800A29617 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		659E1C5D2B30D4F500A29617 /* WrappingHstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHstack.swift; sourceTree = "<group>"; };
+		659E1C5F2B30D52800A29617 /* SpecificRounCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificRounCorner.swift; sourceTree = "<group>"; };
+		659E1C612B30D57400A29617 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		659E1C6A2B30D62A00A29617 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		659E1C6D2B30D6A800A29617 /* FirstPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageModel.swift; sourceTree = "<group>"; };
+		659E1C702B31353B00A29617 /* RoomsViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewList.swift; sourceTree = "<group>"; };
+		659E1C722B31588F00A29617 /* RoomsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsListViewModel.swift; sourceTree = "<group>"; };
+		659E1C742B31597200A29617 /* RoomListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListModel.swift; sourceTree = "<group>"; };
+		659E1C772B315F3400A29617 /* RoomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCard.swift; sourceTree = "<group>"; };
+		659E1C7A2B315F5500A29617 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		659E1C7C2B315F7E00A29617 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		659E1C7E2B315FB600A29617 /* DescriptionLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionLine.swift; sourceTree = "<group>"; };
+		659E1C802B315FD800A29617 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		659E1C832B31618100A29617 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		659E1C862B3166A000A29617 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		659E1C8E2B318E3800A29617 /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
+		659E1C902B318EDF00A29617 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		659E1C932B31980700A29617 /* DoneOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659E1C8A2B31701A00A29617 /* InputMask in Frameworks */,
+				659E1C8D2B3178EB00A29617 /* iPhoneNumberField in Frameworks */,
+				659E1C682B30D61700A29617 /* Kingfisher in Frameworks */,
+				659E1C652B30D5D100A29617 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +99,13 @@
 		659E1C452B30AA3600A29617 /* HotelProject */ = {
 			isa = PBXGroup;
 			children = (
-				659E1C462B30AA3600A29617 /* HotelProjectApp.swift */,
-				659E1C482B30AA3600A29617 /* ContentView.swift */,
+				659E1C6C2B30D69B00A29617 /* Models */,
+				659E1C692B30D61D00A29617 /* Managers */,
+				659E1C592B30AC5E00A29617 /* Resources */,
+				659E1C5C2B30D4CD00A29617 /* Extensions */,
+				659E1C562B30AB1200A29617 /* Sources */,
+				659E1C542B30AAB800A29617 /* Modules */,
+				659E1C852B31668C00A29617 /* CustomViews */,
 				659E1C4A2B30AA3900A29617 /* Assets.xcassets */,
 				659E1C4C2B30AA3900A29617 /* Preview Content */,
 			);
@@ -65,6 +118,125 @@
 				659E1C4D2B30AA3900A29617 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		659E1C542B30AAB800A29617 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C922B31977300A29617 /* DoneOrderModule */,
+				659E1C822B31617100A29617 /* OrderModule */,
+				659E1C6F2B31352A00A29617 /* RoomsListModule */,
+				659E1C552B30AAC500A29617 /* MainModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		659E1C552B30AAC500A29617 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C792B315F4500A29617 /* Views */,
+				659E1C572B30AB4000A29617 /* MainHotelView.swift */,
+				659E1C612B30D57400A29617 /* MainViewModel.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		659E1C562B30AB1200A29617 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C462B30AA3600A29617 /* HotelProjectApp.swift */,
+				659E1C482B30AA3600A29617 /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		659E1C592B30AC5E00A29617 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C5A2B30AC8800A29617 /* AppColors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		659E1C5C2B30D4CD00A29617 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C5D2B30D4F500A29617 /* WrappingHstack.swift */,
+				659E1C5F2B30D52800A29617 /* SpecificRounCorner.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		659E1C692B30D61D00A29617 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C6A2B30D62A00A29617 /* ApiManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		659E1C6C2B30D69B00A29617 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C6D2B30D6A800A29617 /* FirstPageModel.swift */,
+				659E1C742B31597200A29617 /* RoomListModel.swift */,
+				659E1C8E2B318E3800A29617 /* OrderPage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		659E1C6F2B31352A00A29617 /* RoomsListModule */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C762B315F1E00A29617 /* Cells */,
+				659E1C702B31353B00A29617 /* RoomsViewList.swift */,
+				659E1C722B31588F00A29617 /* RoomsListViewModel.swift */,
+			);
+			path = RoomsListModule;
+			sourceTree = "<group>";
+		};
+		659E1C762B315F1E00A29617 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C772B315F3400A29617 /* RoomCard.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		659E1C792B315F4500A29617 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C7A2B315F5500A29617 /* RatingView.swift */,
+				659E1C7C2B315F7E00A29617 /* OptionView.swift */,
+				659E1C7E2B315FB600A29617 /* DescriptionLine.swift */,
+				659E1C802B315FD800A29617 /* Images.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		659E1C822B31617100A29617 /* OrderModule */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C832B31618100A29617 /* OrderView.swift */,
+				659E1C902B318EDF00A29617 /* OrderViewModel.swift */,
+			);
+			path = OrderModule;
+			sourceTree = "<group>";
+		};
+		659E1C852B31668C00A29617 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C862B3166A000A29617 /* CustomTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		659E1C922B31977300A29617 /* DoneOrderModule */ = {
+			isa = PBXGroup;
+			children = (
+				659E1C932B31980700A29617 /* DoneOrderView.swift */,
+			);
+			path = DoneOrderModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +255,12 @@
 			dependencies = (
 			);
 			name = HotelProject;
+			packageProductDependencies = (
+				659E1C642B30D5D100A29617 /* Alamofire */,
+				659E1C672B30D61700A29617 /* Kingfisher */,
+				659E1C892B31701A00A29617 /* InputMask */,
+				659E1C8C2B3178EB00A29617 /* iPhoneNumberField */,
+			);
 			productName = HotelProject;
 			productReference = 659E1C432B30AA3600A29617 /* HotelProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +289,12 @@
 				Base,
 			);
 			mainGroup = 659E1C3A2B30AA3600A29617;
+			packageReferences = (
+				659E1C632B30D5D000A29617 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				659E1C662B30D61700A29617 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				659E1C882B31701A00A29617 /* XCRemoteSwiftPackageReference "input-mask-ios" */,
+				659E1C8B2B3178EB00A29617 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = 659E1C442B30AA3600A29617 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +321,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659E1C782B315F3400A29617 /* RoomCard.swift in Sources */,
+				659E1C752B31597200A29617 /* RoomListModel.swift in Sources */,
+				659E1C732B31588F00A29617 /* RoomsListViewModel.swift in Sources */,
+				659E1C812B315FD800A29617 /* Images.swift in Sources */,
+				659E1C6B2B30D62A00A29617 /* ApiManager.swift in Sources */,
+				659E1C872B3166A000A29617 /* CustomTextField.swift in Sources */,
+				659E1C622B30D57400A29617 /* MainViewModel.swift in Sources */,
+				659E1C5E2B30D4F500A29617 /* WrappingHstack.swift in Sources */,
 				659E1C492B30AA3600A29617 /* ContentView.swift in Sources */,
+				659E1C602B30D52800A29617 /* SpecificRounCorner.swift in Sources */,
+				659E1C6E2B30D6A800A29617 /* FirstPageModel.swift in Sources */,
+				659E1C5B2B30AC8800A29617 /* AppColors.swift in Sources */,
+				659E1C912B318EDF00A29617 /* OrderViewModel.swift in Sources */,
+				659E1C712B31353B00A29617 /* RoomsViewList.swift in Sources */,
 				659E1C472B30AA3600A29617 /* HotelProjectApp.swift in Sources */,
+				659E1C942B31980700A29617 /* DoneOrderView.swift in Sources */,
+				659E1C7F2B315FB600A29617 /* DescriptionLine.swift in Sources */,
+				659E1C582B30AB4000A29617 /* MainHotelView.swift in Sources */,
+				659E1C842B31618100A29617 /* OrderView.swift in Sources */,
+				659E1C7D2B315F7E00A29617 /* OptionView.swift in Sources */,
+				659E1C7B2B315F5500A29617 /* RatingView.swift in Sources */,
+				659E1C8F2B318E3800A29617 /* OrderPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +548,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		659E1C632B30D5D000A29617 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		659E1C662B30D61700A29617 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.1;
+			};
+		};
+		659E1C882B31701A00A29617 /* XCRemoteSwiftPackageReference "input-mask-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RedMadRobot/input-mask-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.3.2;
+			};
+		};
+		659E1C8B2B3178EB00A29617 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		659E1C642B30D5D100A29617 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 659E1C632B30D5D000A29617 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		659E1C672B30D61700A29617 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 659E1C662B30D61700A29617 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		659E1C892B31701A00A29617 /* InputMask */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 659E1C882B31701A00A29617 /* XCRemoteSwiftPackageReference "input-mask-ios" */;
+			productName = InputMask;
+		};
+		659E1C8C2B3178EB00A29617 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 659E1C8B2B3178EB00A29617 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 659E1C3B2B30AA3600A29617 /* Project object */;
 }
